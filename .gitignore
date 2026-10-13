@@ -1,0 +1,57 @@
+# Unity generated
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/.utmp/
+*_BurstDebugInformation_DoNotShip/
+*_BackUpThisFolder_ButDontShipItWithYourGame/
+mono_crash.*
+
+# Written into the project by the test framework while a player is being built
+/Assets/Resources/PerformanceTestRun*.json
+/Assets/Resources/PerformanceTestRun*.json.meta
+
+# IDE and OS
+/.vs/
+/.vscode/
+/.idea/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.DS_Store
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.app
+crashlytics-build.properties
+
+# Android signing: never commit a keystore
+*.keystore
+*.jks
+
+# Asset Store packs: their licence does not allow republishing the files.
+# Import them from the Asset Store instead (see CREDITS.md).
+/Assets/ThirdParty/
+/Assets/ThirdParty.meta
+
+# Local development tooling (terminal-to-Editor bridge); not part of the game.
+/Assets/_Dev/
+/Assets/_Dev.meta
