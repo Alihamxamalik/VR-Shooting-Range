@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16b308e98653649cd84d3cfa5a1f1833, type: 3}
+  m_Name: MovingGallery
+  m_EditorClassIdentifier: 
+  m_Mode: 1
+  m_DisplayName: Moving Gallery
+  m_Goal: Hit as many moving targets as you can in 60 seconds. Leave the white no-shoots
+    alone.
+  m_LocksPanel: 1
+  m_UseCombo: 1
+  m_UseDifficultyFactor: 0
+  m_Duration: 60
+  m_ShotLimit: 0
+  m_SpawnsTargets: 1
+  m_NoShootChance: 0.2
+  m_UsesPaper: 0
+  m_Tiers:
+  - name: Slow
+    settings:
+      targetDistance: 15
+      targetSpeed: 1
+      pattern: 1
+      spawnInterval: 2
+      popUpExposure: 1.5
+      targetsPerRound: 0
+      targetSize: 1
+      fireRatePercent: 100
+      infiniteAmmo: 0
+      laserSight: 0
+      roundTimer: 60
+    scoreMultiplier: 1
+    developerBest: 3000
+  - name: Medium
+    settings:
+      targetDistance: 15
+      targetSpeed: 2.5
+      pattern: 1
+      spawnInterval: 1.5
+      popUpExposure: 1.5
+      targetsPerRound: 0
+      targetSize: 1
+      fireRatePercent: 100
+      infiniteAmmo: 0
+      laserSight: 0
+      roundTimer: 60
+    scoreMultiplier: 1.5
+    developerBest: 5000
+  - name: Fast
+    settings:
+      targetDistance: 15
+      targetSpeed: 4
+      pattern: 1
+      spawnInterval: 1
+      popUpExposure: 1.5
+      targetsPerRound: 0
+      targetSize: 1
+      fireRatePercent: 100
+      infiniteAmmo: 0
+      laserSight: 0
+      roundTimer: 60
+    scoreMultiplier: 2
+    developerBest: 8000

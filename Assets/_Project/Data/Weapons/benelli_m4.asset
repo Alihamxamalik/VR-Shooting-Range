@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bf22835b7bfb4f8098f4424dbe17b84, type: 3}
+  m_Name: benelli_m4
+  m_EditorClassIdentifier: 
+  m_Id: benelli_m4
+  m_DisplayName: Benelli M4
+  m_Role: Shotgun
+  m_FireModes: 00000000
+  m_RoundsPerMinute: 240
+  m_Pellets: 8
+  m_BaseSpread: 3.5
+  m_SpreadPerShot: 0
+  m_MaxSpreadBloom: 0
+  m_SpreadRecovery: 0.4
+  m_MaxRange: 80
+  m_TracerEvery: 1
+  m_MagazineSize: 7
+  m_ShellFed: 1
+  m_SlideLocksOnEmpty: 0
+  m_QuickReloadSeconds: 1.2
+  m_MagazinePrefab: {fileID: 5175813774745806138, guid: 84452e831ebd84b3b84bbb5b717fd5d1, type: 3}
+  m_KickBack: 0.05
+  m_MuzzleClimb: 10
+  m_YawJitter: 2.5
+  m_RecoilReturnSpeed: 6
+  m_TwoHandRecoilScale: 0.6
+  m_HapticAmplitude: 1
+  m_HapticDuration: 0.07
+  m_HapticTailAmplitude: 0.45
+  m_HapticTailDuration: 0.08
+  m_SupportHandHaptics: 0.6
+  m_LongRange: 0
+  m_ShotClips:
+  - {fileID: 8300000, guid: 911508be50fd947f9a2278f33fbb40fb, type: 3}
+  - {fileID: 8300000, guid: ff21943c3fbe74c1686bab2a49cea729, type: 3}
+  m_PitchJitter: 0.05
+  m_DryFireClip: {fileID: 8300000, guid: 6eb34af9b5e864f4cb14c63e312604f6, type: 3}
+  m_MagazineOutClip: {fileID: 8300000, guid: dd4241658e18b40e7a8ad076d4c6951f, type: 3}
+  m_MagazineInClip: {fileID: 8300000, guid: 311696e9fbec34008b1edd5e8c373a6e, type: 3}
+  m_SlideClip: {fileID: 8300000, guid: e541ef7f2b7644cd698a0e72c4473162, type: 3}

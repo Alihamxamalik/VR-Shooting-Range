@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bf22835b7bfb4f8098f4424dbe17b84, type: 3}
+  m_Name: ak74
+  m_EditorClassIdentifier: 
+  m_Id: ak74
+  m_DisplayName: AK74
+  m_Role: Assault rifle
+  m_FireModes: 0000000001000000
+  m_RoundsPerMinute: 650
+  m_Pellets: 1
+  m_BaseSpread: 0.6
+  m_SpreadPerShot: 0.2
+  m_MaxSpreadBloom: 2
+  m_SpreadRecovery: 0.4
+  m_MaxRange: 300
+  m_TracerEvery: 3
+  m_MagazineSize: 30
+  m_ShellFed: 0
+  m_SlideLocksOnEmpty: 0
+  m_QuickReloadSeconds: 1.2
+  m_MagazinePrefab: {fileID: 8828675771553275050, guid: ed1186a8e47ab4d9ab34276aa95b4134, type: 3}
+  m_KickBack: 0.02
+  m_MuzzleClimb: 3
+  m_YawJitter: 1.2
+  m_RecoilReturnSpeed: 9
+  m_TwoHandRecoilScale: 0.6
+  m_HapticAmplitude: 0.7
+  m_HapticDuration: 0.035
+  m_HapticTailAmplitude: 0.25
+  m_HapticTailDuration: 0.04
+  m_SupportHandHaptics: 0.6
+  m_LongRange: 0
+  m_ShotClips:
+  - {fileID: 8300000, guid: d5b80bb85820d4cd99dd22aa4035663c, type: 3}
+  - {fileID: 8300000, guid: daca1463095b24b6faf28299cfdc3545, type: 3}
+  m_PitchJitter: 0.05
+  m_DryFireClip: {fileID: 8300000, guid: 6eb34af9b5e864f4cb14c63e312604f6, type: 3}
+  m_MagazineOutClip: {fileID: 8300000, guid: dd4241658e18b40e7a8ad076d4c6951f, type: 3}
+  m_MagazineInClip: {fileID: 8300000, guid: 311696e9fbec34008b1edd5e8c373a6e, type: 3}
+  m_SlideClip: {fileID: 8300000, guid: e541ef7f2b7644cd698a0e72c4473162, type: 3}
